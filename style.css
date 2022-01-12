@@ -15,6 +15,10 @@ nav{
 
     
 }
+.logo h1{
+    color: white;
+}
+
 .logo img{
     height: 50px;
     width: 50px;
@@ -160,6 +164,7 @@ h1{
 @media only screen and (max-width: 668px){
     .top{
         width: 100%;
+        margin: 20px;
        
     }
 
@@ -175,6 +180,7 @@ h1{
     }
     .top-blog{
         width: 100%;
+        margin: 20px;
        
     }
     .blogs{
@@ -190,11 +196,36 @@ h1{
     }
     .letest{
         width: 100%;
+        margin: 20px;
         
     }
     .blog{
         flex-direction: column;
     }
+    .logo img h1{
+        display:flex;
+        width: 100%;
+        flex-direction: column;
+        color: white;
+    }
+    .home a{
+        display: block;
+        background-color: lightskyblue;
+        border-radius: 10px;
+        align-items: center;
+        text-align: center
+       
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        align-items: center;
+       
+
+    }
+   
 
 
 
